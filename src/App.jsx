@@ -768,7 +768,7 @@ const App = () => {
   };
 
   const handleBook = (service) => {
-    showToast(`✅ Booking confirmed for "${service.name}"!`);
+    showToast(` Booking confirmed for "${service.name}"!`);
   };
 
   const handleViewDetails = (service) => {
