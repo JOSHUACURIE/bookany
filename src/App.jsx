@@ -783,8 +783,8 @@ const App = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const handleApplyDeal = (deal) => showToast(`🎉 Deal "${deal.code}" applied!`);
-  const handleCancelBooking = (booking) => showToast(`❌ Booking for "${booking.service}" cancelled.`);
+  const handleApplyDeal = (deal) => showToast(`Deal "${deal.code}" applied!`);
+  const handleCancelBooking = (booking) => showToast(` Booking for "${booking.service}" cancelled.`);
 
   return (
     <div style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", backgroundColor: colors.offWhite, minHeight: '100vh' }}>
